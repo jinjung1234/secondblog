@@ -51,16 +51,17 @@
         <form name="request" method="POST" data-netlify="true">
             <div class="form-group">
                 <label for="exampleFormControlInput1">이메일 주소</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="이메일을 입력해주세요.">
+                <input name="request" type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="이메일을 입력해주세요.">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">문의사항 기재</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                <textarea name="request" class="form-control" id="exampleFormControlTextarea1" rows="3"
                     placeholder="문의사항 및 참조자료를 업로드하여 주십시오."></textarea>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlFile1">관련파일 업로드</label>
-                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                <input name="request" type="file" class="form-control-file" id="exampleFormControlFile1">
             </div>
             <div class="form-group">
                 <button type="submit" id="submit" class="btn btn-secondary mb-2">제출</button>
